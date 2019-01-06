@@ -9,3 +9,4 @@
 /downloads/**
 /sstate-cache
 /sstate-cache/**
+/sstate*
