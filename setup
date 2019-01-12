@@ -6,7 +6,7 @@ else
 	export ROOT=$(readlink -f ${PWD})
 fi
 
-export TEMPLATECONF=$ROOT/sources/meta-linh/conf
+export TEMPLATECONF=$ROOT/sources/meta-walle/conf
 export PATH=$PATH:$ROOT/scripts
 source $ROOT/sources/core/oe-init-build-env "$@"
 
