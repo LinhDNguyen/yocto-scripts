@@ -6,7 +6,7 @@ else
 	export ROOT=$(readlink -f ${PWD})
 fi
 
-export TEMPLATECONF=$ROOT/sources/meta-walle/conf
+export TEMPLATECONF=$ROOT/sources/meta-pcs/conf
 export PATH=$PATH:$ROOT/scripts
-source $ROOT/sources/core/oe-init-build-env "$@"
+source $ROOT/sources/poky/oe-init-build-env "$@"
 
